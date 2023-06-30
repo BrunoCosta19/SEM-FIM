@@ -1,0 +1,29 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav{
+        margin-left: 10px;
+    }
+
+    .btn{
+        margin-bottom: 15px;
+        width: 200px;
+    }
+
+    .destaque .container .titulo{
+        font-size: 25px;
+    }
+    
+    .destaque .container{
+		width: 90%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .descricao{
+        width: 60%;
+    }
+}
